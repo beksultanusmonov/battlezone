@@ -1,0 +1,74 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.f-c{
+    color: #0069ff;
+}
+
+.bg-f-c{
+    background-color: #0069ff;
+}
+
+.b-f-c{
+    border: 2px solid #0069ff;
+}
+
+.bg-tr{
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+
+.sidebar-style a.active{
+    background: #0069ff;
+    color: #fff;
+}
+
+.btl img.btl-l{
+    clip-path: polygon(0 0, 100% 0, 61% 100%, 0% 100%);
+    left: 0;
+}
+
+.btl img:nth-child(2){
+    left: 0;
+    z-index: 10;
+    width: 130px;
+    height: 70px;
+    top: 40px;
+    left: 80px;
+}
+
+.btl img.btl-r{
+    clip-path: polygon(39% 0, 100% 0, 100% 100%, 0% 100%);
+    right: 0;
+}
+
+@media only screen and (max-width: 360px) {
+    .btl-card{
+        width: 96vw;
+        padding: 15px 10px;
+    }
+
+    .btl{
+        width: 90vw;
+    }
+
+    .btl img.btl-l{
+        width: 56vw;
+    }
+
+    .btl img.btl-r{
+        width: 56vw;
+    }
+
+    .btl img:nth-child(2){
+        left: 25vw;
+    }
+
+    .btl-p-c{
+        width: 160px !important;
+    }
+
+    .btl .btl-p{
+        width: 100px !important;
+    }
+}

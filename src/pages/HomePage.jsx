@@ -19,18 +19,18 @@ function HomePage() {
       </div>
       {/* statistics */}
       <div className='my-12 flex flex-wrap justify-center gap-5'>
-        <div className="w-[300px] py-3 bg-base-100 rounded-xl px-2 flex gap-1 justify-around transition-all duration-200 hover:scale-102 cursor-pointer shadow-xl">
+        <Link to={'/main/battles/'} className="w-[300px] py-3 bg-base-100 rounded-xl px-2 flex gap-1 justify-around transition-all duration-200 hover:scale-102 cursor-pointer shadow-xl">
           <div className='flex items-end'>
             <h1 className='font-bold text-2xl'>Oylik <br /> Janglar</h1>
           </div>
           <img src="../a-vs.png" className='w-[150px] h-[150px]' />
-        </div>
-        <div className="w-[300px] py-3 bg-base-100 rounded-xl px-2 flex gap-1 justify-around transition-all duration-200 hover:scale-102 cursor-pointer shadow-xl">
+        </Link>
+        <Link to={'/main/custom-battles/'} className="w-[300px] py-3 bg-base-100 rounded-xl px-2 flex gap-1 justify-around transition-all duration-200 hover:scale-102 cursor-pointer shadow-xl">
           <div className='flex items-end'>
             <h1 className='font-bold text-xl'>Uyushtirilgan <br /> Janglar</h1>
           </div>
           <img src="../c-vs.png" className='w-[150px] h-[150px]' />
-        </div>
+        </Link>
         <div className="w-[300px] py-3 bg-base-100 rounded-xl px-2 flex gap-1 justify-around transition-all duration-200 hover:scale-102 cursor-pointer shadow-xl">
           <div className='flex items-end'>
             <h1 className='font-bold text-2xl'>Statistika</h1>

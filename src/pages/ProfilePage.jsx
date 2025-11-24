@@ -4,7 +4,7 @@ function ProfilePage() {
   const [changePass, setChangePass] = useState(false);
   return (
     <div>
-      <div className="flex flex-wrap gap-3 transition duration-300">
+      <div className="flex flex-wrap justify-center gap-3 transition duration-300">
         <div
           className={`w-[300px] bg-base-100 h-[${
             changePass ? "520px" : "380px"

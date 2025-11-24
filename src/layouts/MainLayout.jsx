@@ -6,14 +6,14 @@ function MainLayout() {
   return (
     <div className="bg-base-300 absolute h-full w-full">
       {/* sidebar */}
-      <div className={`w-[300px] h-screen bg-base-100 shadow-xl absolute top-0 z-30 ${sidebar ? 'left-0' : '-left-[300px]'}`}>
+      <div className={`w-[300px] h-screen bg-base-100 shadow-xl absolute top-0 z-50 ${sidebar ? 'left-0' : '-left-[300px]'}`}>
         <i className="fa-solid fa-xmark absolute top-4 right-4 text-2xl md:-top-6 cursor-pointer" onClick={() => setSidebar(false)}></i>
         <div className="w-full h-18 flex items-end justify-center">
           <h1 className="text-3xl font-bold">
             Battle<span className="f-c">Zone</span>
           </h1>
         </div>
-        <ul className="menu w-full mt-12 gap-2 sidebar-style">
+        <ul className="menu w-full mt-12 gap-2 sidebar-style z-50">
           <li className="text-black font-semibold">
             <NavLink to="/main" end>
               <i className="fa-solid fa-house text-2xl"></i>

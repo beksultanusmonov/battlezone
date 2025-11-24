@@ -42,6 +42,14 @@
     right: 0;
 }
 
+.btl-i-r{
+    clip-path: polygon(39% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.btl-i-l{
+    clip-path: polygon(0 0, 100% 0, 61% 100%, 0% 100%);
+}
+
 @media only screen and (max-width: 360px) {
     .btl-card{
         width: 96vw;

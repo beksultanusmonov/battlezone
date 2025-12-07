@@ -1,5 +1,9 @@
 @import "tailwindcss";
+@plugin "flowbite/plugin";
 @plugin "daisyui";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "flowbite/src/themes/default";
+@source "../node_modules/flowbite";
 
 .f-c{
     color: #0069ff;
@@ -48,6 +52,10 @@
 
 .btl-i-l{
     clip-path: polygon(0 0, 100% 0, 61% 100%, 0% 100%);
+}
+
+.tran{
+    transition: all 0.3s ease;
 }
 
 @media only screen and (max-width: 360px) {

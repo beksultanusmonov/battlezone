@@ -31,14 +31,13 @@ function HomePage() {
           </div>
           <img src="../c-vs.png" className='w-[150px] h-[150px]' />
         </Link>
-        <div className="w-[300px] py-3 bg-base-100 rounded-xl px-2 flex gap-1 justify-around transition-all duration-200 hover:scale-102 cursor-pointer shadow-xl">
+        <Link to={'/main/statistics'} className="w-[300px] py-3 bg-base-100 rounded-xl px-2 flex gap-1 justify-around transition-all duration-200 hover:scale-102 cursor-pointer shadow-xl">
           <div className='flex items-end'>
             <h1 className='font-bold text-2xl'>Statistika</h1>
           </div>
           <img src="../statistics.png" className='w-[150px] h-[150px]' />
-        </div>
+        </Link>
       </div>
-      {/* Battles */}
     </div>
   )
 }

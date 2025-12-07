@@ -30,28 +30,56 @@ function ProfilePage() {
                     </button>
                   </form>
                   <div className="flex flex-wrap justify-center gap-x-2 gap-y-4">
-                    <img src="../../avatars/1.png" className="w-36 h-36 bg-f-c rounded-full transition duration-300 hover:scale-105" alt="" />
-                    <img src="../../avatars/2.png" className="w-36 h-36 bg-f-c rounded-full transition duration-300 hover:scale-105" alt="" />
-                    <img src="../../avatars/3.png" className="w-36 h-36 bg-f-c rounded-full transition duration-300 hover:scale-105" alt="" />
-                    <img src="../../avatars/4.png" className="w-36 h-36 bg-f-c rounded-full transition duration-300 hover:scale-105" alt="" />
-                    <img src="../../avatars/5.png" className="w-36 h-36 bg-f-c rounded-full transition duration-300 hover:scale-105" alt="" />
-                    <img src="../../avatars/6.png" className="w-36 h-36 bg-f-c rounded-full transition duration-300 hover:scale-105" alt="" />
-                    <img src="../../avatars/7.png" className="w-36 h-36 bg-f-c rounded-full transition duration-300 hover:scale-105" alt="" />
-                    <img src="../../avatars/8.png" className="w-36 h-36 bg-f-c rounded-full transition duration-300 hover:scale-105" alt="" />
+                    <img
+                      src="../../avatars/1.png"
+                      className="w-36 h-36 bg-f-c rounded-full transition duration-300 hover:scale-105"
+                      alt=""
+                    />
+                    <img
+                      src="../../avatars/2.png"
+                      className="w-36 h-36 bg-f-c rounded-full transition duration-300 hover:scale-105"
+                      alt=""
+                    />
+                    <img
+                      src="../../avatars/3.png"
+                      className="w-36 h-36 bg-f-c rounded-full transition duration-300 hover:scale-105"
+                      alt=""
+                    />
+                    <img
+                      src="../../avatars/4.png"
+                      className="w-36 h-36 bg-f-c rounded-full transition duration-300 hover:scale-105"
+                      alt=""
+                    />
+                    <img
+                      src="../../avatars/5.png"
+                      className="w-36 h-36 bg-f-c rounded-full transition duration-300 hover:scale-105"
+                      alt=""
+                    />
+                    <img
+                      src="../../avatars/6.png"
+                      className="w-36 h-36 bg-f-c rounded-full transition duration-300 hover:scale-105"
+                      alt=""
+                    />
+                    <img
+                      src="../../avatars/7.png"
+                      className="w-36 h-36 bg-f-c rounded-full transition duration-300 hover:scale-105"
+                      alt=""
+                    />
+                    <img
+                      src="../../avatars/8.png"
+                      className="w-36 h-36 bg-f-c rounded-full transition duration-300 hover:scale-105"
+                      alt=""
+                    />
                   </div>
                 </div>
               </dialog>
             </div>
           </div>
-          <hr className="my-2 text-gray-500" />
           <div className="flex flex-col px-2 gap-y-2">
-            <div className="w-full p-1 bg-gray-300 rounded-md">
-              <span className="text-md text-gray-500">username:</span>
-              <h2 className="wrap-break-word">beksultan</h2>
-            </div>
-            <div className="w-full p-1 bg-gray-300 rounded-md">
-              <span className="text-md text-gray-500">email:</span>
-              <h2 className="wrap-break-word">bek@gmail.com</h2>
+            <div className="mt-4 text-center">
+              <p className="text-lg text-slate-900 font-semibold">username</p>
+              <p className="text-sm text-slate-500 mt-1">beksulton@gmail.com</p>
+              <span><strong className="text-black dark:text-white">123</strong> Obunachiga ega</span>
             </div>
             {!changePass && (
               <>

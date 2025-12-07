@@ -8,6 +8,9 @@ import BattlePage from "./pages/BattlePage";
 import CustomBattlePage from "./pages/CustomBattlePage";
 import CreateBattle from "./pages/CreateBattle";
 import ProfilePage from "./pages/ProfilePage";
+import Statistics from './pages/Statistics'
+import PageNotFound from './pages/PageNotFound'
+import UserProfile from './pages/UserProfile'
 
 function App() {
   // toast.success('ishladi')
@@ -44,8 +47,19 @@ function App() {
         {
           path: 'profile',
           element: <ProfilePage />
+        },
+        {
+          path: 'statistics/',
+          element: <Statistics />
+        },
+        {
+          path: 'user/:id',
+          element: <UserProfile />
         }
       ]
+    }, {
+      path: '*',
+      element: <PageNotFound />
     }
   ])
   return <RouterProvider router={routes} />

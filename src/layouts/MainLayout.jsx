@@ -33,6 +33,12 @@ function MainLayout() {
             </NavLink>
           </li>
           <li className="text-black font-semibold">
+            <NavLink to="/main/statistics">
+              <i className="fa-solid fa-chart-pie text-2xl"></i>
+              <span className="text-xl">Statistika</span>
+            </NavLink>
+          </li>
+          <li className="text-black font-semibold">
             <NavLink to="/main/create-battle">
               <i className="fa-solid fa-square-plus text-2xl"></i>
               <span className="text-xl">Jang yaratish</span>
@@ -54,7 +60,7 @@ function MainLayout() {
       </div>
       {/* navbar */}
       <div className={`absolute top-0 h-[70px] ${sidebar ? 'w-full md:w-[calc(100vw-300px)] md:left-[300px]' : 'w-full left-0'} bg-base-100 flex items-center justify-between px-4`}>
-        <i className="fa-solid fa-bars text-3xl hover:cursor-pointer" onClick={() => useState(setSidebar(sidebar ? false : true))}></i>
+        <i className="fa-solid fa-bars text-3xl hover:cursor-pointer" onClick={() => setSidebar(sidebar ? false : true)}></i>
         <div className="dropdown dropdown-end">
           <div
             tabIndex={0}

@@ -1,5 +1,0 @@
-export {default as BattlePage} from './BattlePage.jsx'
-export {default as CreateBattle} from './CreateBattle.jsx'
-export {default as CustomBattlePage} from './CustomBattlePage.jsx'
-export {default as ProfilePage} from './ProfilePage.jsx'
-export {default as HomePage} from './HomePage.jsx'
